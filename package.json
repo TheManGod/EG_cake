@@ -1,0 +1,26 @@
+{
+  "name": "eg_cake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "grunt eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheManGod/EG_cake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheManGod/EG_cake/issues"
+  },
+  "homepage": "https://github.com/TheManGod/EG_cake#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^20.1.0",
+    "husky": "^0.14.3",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
