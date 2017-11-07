@@ -1,12 +1,25 @@
 body{
 	background-color: rgb(255,255,255);
+	font-family: Times, TimesNR, 'New Century Schoolbook',
+     Georgia, 'New York', serif;
 }
 ul{
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 a{
 	text-decoration: none;
 	color: black;
+}
+i{
+	font-style: normal;
+}
+a:hover{
+	color: rgb(110,91,66);
+}
+#top_head{
+	box-shadow: 0 1px 8px rgb(100,100,100);
 }
 #head{
 	width: 1100px;
@@ -21,12 +34,115 @@ a{
 }
 #head_menu {
 	position:absolute;
-	bottom:30px;
+	bottom:0;
 	left: 188px;
 }
-#head_menu li{
+.head_menu_ul>li{
 	float: left;
 	font-size: 18px;
-	padding-right: 45px;
-	font-weight: bold;
+	margin-right: 45px;
+	font-weight: 500;
+	height: 60px;
+}
+.head_secmenu{
+	position: relative;
+}
+.head_secmenu span{
+	display: block;
+	position: absolute;
+	right: -8px;
+	top: 8px;
+	border: 3px solid white;
+	border-top-color: black; 
+}
+#head_login{
+	position: absolute;
+	height: 22px;
+	right: 10px;
+	top: 20px;
+	border-bottom: 1px dashed rgb(110,91,66);
+}
+.login,.navigation{
+	padding: 8px;
+	cursor: pointer;
+}
+#date_phone{
+	font-size: 12px;
+	width: 140px;
+	position: absolute;
+	bottom: -22px;
+	left: -5px;
+}
+.head_search{
+	position: absolute;
+	right: 152px;
+	bottom:30px;
+	border: 1px solid rgb(86,86,86);
+	border-radius: 25px;
+	width: 220px;
+	height: 26px;
+	overflow: hidden;
+	line-height: 26px;
+}
+.head_search input{
+	width: 165px;
+	height: 18px;
+	padding: 3px 10px;
+	border: none;
+	outline: none;
+}
+.head_search span{
+	position: absolute;
+	width: 20px;
+	height: 15px;
+	background-image: url(../imgs/Magnifier.png);
+	right: 15px;
+	top: 5px;
+}
+.cart_language{
+	position: absolute;
+	bottom: 30px;
+	right: 10px;
+}
+.cart_language img{
+	position: relative;
+	cursor: pointer;
+	left: -60px;
+}
+i.head_secmenu{
+	cursor: pointer;
+	top: -5px;
+	right: 5px;
+}
+i.head_secmenu span{
+	left: 25px !important;
+}
+.clear:after{
+	content: '';
+	zoom:1;
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+.focus_page{
+	border-bottom: 3px solid rgb(110,91,66);
+}
+.sec_menu{
+	display: none;
+	position: absolute;
+	top: 62px;
+	left: -45px;
+}
+.sec_menu li{
+	margin: 0;
+	width: 72px;
+	padding: 3px 0;
+	border-bottom: 1px dashed black;
+	text-align: center;
+}
+.sec_menu:last-child li{
+	width: 120px;
+}
+.head_secmenu:hover .sec_menu{
+	display: block;
 }
