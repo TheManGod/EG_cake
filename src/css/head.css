@@ -1,0 +1,32 @@
+body{
+	background-color: rgb(255,255,255);
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#head{
+	width: 1100px;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+}
+#head_logo{
+	position: absolute;
+	left: 0;
+	bottom: 25px;
+}
+#head_menu {
+	position:absolute;
+	bottom:30px;
+	left: 188px;
+}
+#head_menu li{
+	float: left;
+	font-size: 18px;
+	padding-right: 45px;
+	font-weight: bold;
+}
