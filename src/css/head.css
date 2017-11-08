@@ -36,6 +36,7 @@ a:hover{
 	position:absolute;
 	bottom:0;
 	left: 188px;
+	z-index: 99;
 }
 .head_menu_ul>li{
 	float: left;
