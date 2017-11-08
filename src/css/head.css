@@ -146,3 +146,10 @@ i.head_secmenu span{
 .head_secmenu:hover .sec_menu{
 	display: block;
 }
+.head_secmenu span{
+	transition:all 0.5s;
+}
+.head_secmenu:hover span{
+	transform: rotate(180deg);
+	transform-origin: 3px 1.5px;
+}

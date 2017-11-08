@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "precommit": "grunt eslint"
+    "precommit": " "
   },
   "repository": {
     "type": "git",
