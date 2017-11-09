@@ -133,6 +133,7 @@ i.head_secmenu span{
 	position: absolute;
 	top: 62px;
 	left: -45px;
+	background-color: rgba(200,200,200,0.8);
 }
 .sec_menu li{
 	margin: 0;

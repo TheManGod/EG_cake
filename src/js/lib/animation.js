@@ -26,7 +26,7 @@ define(['util'],function(getComputedStyleValue){
 				box.style.filter='alpha(opacity='+(iCurrent+iSpeed)*100+')';
 				}
 			}else{
-				var iSpeed=5;
+				var iSpeed=0.001;
 				iSpeed=(jSon[styleName]-iCurrent)/8;
 				if(iSpeed>0){
 					iSpeed=Math.ceil(iSpeed);
