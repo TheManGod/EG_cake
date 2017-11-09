@@ -26,13 +26,16 @@
 }
 .foot_related{
 	margin: 40px auto;
-	width: 538px;
+	width: 446px;
 }
 .foot_related span{
 	color: white;
 	margin-right: 30px;
 	font-size: 14px;
 	font-family: "微软雅黑";
+}
+.foot_related span.miaoquan{
+	margin-right: 0;
 }
 .foot_msg{
 	width: 600px;
