@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clear_fix:after{
+	clear: both;
+	zoom: 1;
+	display: block;
+	content: "";
+	overflow: hidden;
+}
+#back_body{
+	background: url(../imgs/bd.png) repeat;
+	background-size:100% 100%; 
+	opacity: 0.8;
+}
+.back_main{
+	max-width: 56%;
+	margin: 0 auto;
+}
+.back_logo img{
+	margin: 20px 32%;
+	width: 260px;
+}
+.back_text p{
+	font-family: Sans-serif;
+	font-size: 22px;
+	line-height: 36px;
+	margin-bottom: 10px;
+}
+.text_img img{
+	max-width: 706px;
+	border-right: 2px solid rgb(175,160,119);
+	border-left: 2px solid rgb(175,160,119);
+	margin: 20px auto;
+	padding: 0 20px;
+}
+.back_imgs img{
+	float: left;
+	width: 228px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.back_imgs img:nth-child(3){
+	margin-right: 0;
+}
+.back_mix{
+	margin-top: 30px;
+}
+.back_mix p{
+	float: left;
+	width: 390px;
+	font-family: Sans-serif;
+	font-size: 22px;
+	line-height: 34px;
+	color: rgb(122,102,76);
+/*	font-weight: bold;*/
+}
+.back_mix img{
+	float: right;
+	width: 300px;
+	padding: 10px;
+	border: 2px solid rgb(175,160,119);
+}
+.back_mix2{
+	margin: 30px auto;
+	padding-bottom: 30px;
+	border-bottom: 2px dashed white;
+}
+.back_mix2 p{
+	float: right;
+	width: 390px;
+	font-family: Sans-serif;
+	font-size: 22px;
+	line-height: 36px;
+	color: rgb(122,102,76);
+/*	font-weight: bold;*/
+}
+.back_mix2 img{
+	float: left;
+	width: 300px;
+	padding: 10px;
+	border: 2px solid rgb(175,160,119);
+}
+.back_line1,.back_line2{
+	background-color: black;
+	width: 100px;
+	height: 1px;
+	float: left;
+	margin-top: 17px;
+}
+.back_line1{
+	margin-left: 160px;
+	margin-right: 30px;
+}
+.back_line2{
+	margin-left: 30px;
+}
+.back_words{
+	font-family: Sans-serif;
+	font-size: 34px;
+	float: left;
+}
+.back_tag{
+	padding-bottom: 40px;
+}
+#back_foot{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+.foot_logo{
+	padding-top: 20px;
+}
+.foot_line1,.foot_line2{
+	background-color: rgb(176,145,106);
+	width: 30px;
+	height: 1px;
+	float: left;
+	margin-top: 34px;
+}
+.foot_line1{
+	margin-left: 550px;
+}
+.foot_line2{
+	margin-left: 10px;
+}
+.foot_img img{
+	width: 120px;
+	margin-left: 10px;
+	float: left;
+}

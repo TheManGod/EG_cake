@@ -1,0 +1,94 @@
+/*尾部样式表*/
+#foot{
+	background-color: black;
+	position: relative;
+}
+.foot_logo{
+	padding-top: 20px;
+}
+.foot_line1,.foot_line2{
+	background-color: rgb(176,145,106);
+	width: 30px;
+	height: 1px;
+	float: left;
+	margin-top: 34px;
+}
+.foot_line1{
+	margin-left: 550px;
+}
+.foot_line2{
+	margin-left: 10px;
+}
+.foot_img img{
+	width: 120px;
+	margin-left: 10px;
+	float: left;
+}
+.foot_related{
+	margin: 40px auto;
+	width: 538px;
+}
+.foot_related span{
+	color: white;
+	margin-right: 30px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.foot_msg{
+	width: 600px;
+	margin: 0 auto;
+	font-family: "微软雅黑";
+}
+.foot_hotline{
+	margin: 0 auto;
+	padding: 6px 6px;
+	width: 142px;
+	border-bottom: 1px dashed white;
+	color: white;
+	font-size: 12px;
+}
+.foot_msg p,.foot_last p{
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 10px;
+	text-align: center;
+	padding: 6px 0;
+}
+.foot_line{
+	width: 100%;
+	height: 1px;
+	background-color: white;
+	margin: 20px 0;
+}
+.foot_er{
+	position: absolute;
+	left: 240px;
+	top: -80px;
+}
+.code1,.code2,.code3{
+	position: absolute;
+}
+.code2{
+	top: 115px;
+}
+.code3{
+	top: 230px;
+}
+.foot_sprite img{
+	width: 38px;
+	height: 38px;
+}
+.foot_box1,.foot_box2,.foot_box3,.foot_box4,.foot_box5,.foot_box6{
+	position: absolute;
+}
+.foot_box1,.foot_box3,.foot_box5{
+	z-index: 5;
+}
+.foot_box2,.foot_box4,.foot_box6{
+	left: 40px;
+	top: -18px;
+	transition: left 1s;
+}
+.code1:hover>.foot_box2,.code2:hover>.foot_box4,.code3:hover>.foot_box6{
+	left: 70px;
+}
