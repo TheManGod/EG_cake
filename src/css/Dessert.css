@@ -7,3 +7,126 @@
 	height: 15px;
 	width: 15px;
 }
+#main{
+	width: 1100px;
+	margin: 0 auto;
+}
+#Doughnut{
+	height: 700px;
+	background-image: url(../imgs/background_tiantianquan.jpg);
+	position: relative;
+}
+#list_1{
+	right: 0px;
+	top: 290px;
+}
+#list_1{
+	right: 0px;
+	top: 290px;
+}
+#list_2{
+	right: 305px;
+	top: 320px;
+}
+#list_3{
+	right: 600px;
+	top: 242px;
+}
+#list_4{
+	left: 0;
+	top: 275px;
+}
+#snack{
+	height: 700px;
+	background-image: url(../imgs/background_snack.jpg);
+	position: relative;
+	overflow: hidden;
+}
+#list_5{
+	left: 450px;
+	top: 300px;
+}
+#list_6{
+	left: 840px;
+	top: 300px;
+}
+#list_7{
+	left: 60px;
+	top: 300px;
+}
+#list_8{
+	left: 1220px;
+	top: 300px;
+}
+#list_9{
+	left:1606px;
+	top: 300px;
+}
+.slider_content{
+	position: absolute;
+	height: 700px;
+	width: 2000px;
+	left: 0px;
+}
+#Tiramisu{
+	height: 1100px;
+	background-image: url(../imgs/background_Tiramisu.jpg);
+	position: relative;
+}
+.Tiramisu_list1{
+	width: 507px;
+	height: 640px;
+	position: absolute;
+	top: 430px;
+	left: 0;
+	border: 1px solid rgb(176,145,106);
+}
+.Tiramisu_list2{
+	width: 507px;
+	height: 640px;
+	position: absolute;
+	top: 300px;
+	left: 600px;
+	border: 1px solid rgb(176,145,106);
+}
+
+.list_infor{
+	width: 405px;
+	height: 100px;
+	background-color: rgb(129,106,77);
+	color: white;
+	font-size: 25px;
+	line-height: 100px;
+	text-align: center;
+	position: relative;
+	left: 48px;
+}
+.list_infor img{
+	position: absolute;
+	top: 0;
+	left: 50px;
+	width: 51px;
+	height: 77px;
+}
+.scale{
+	transition: all 0.5s;
+}
+.scale:hover{
+	transform: scale(1.5);
+}
+.box{
+	margin: 10px 30px;
+	width: 447px;
+	height: 477px;
+	overflow: hidden;
+}
+#hot{
+	width: 100%;
+	height: 344px;
+	margin-bottom: 135px;
+	box-shadow: 0 1px 8px rgb(100,100,100);
+}
+#hot img{
+	width: 100%;
+	height: 100%;
+}
