@@ -95,3 +95,6 @@
 .code1:hover>.foot_box2,.code2:hover>.foot_box4,.code3:hover>.foot_box6{
 	left: 70px;
 }
+.foot_last{
+	padding-bottom: 20px;
+}
