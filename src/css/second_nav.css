@@ -1,0 +1,88 @@
+.second_summer{
+	margin: 30px auto;
+}
+.second_love{
+	width: 300px;
+	margin: 0 auto;
+}
+.second_love img{
+	width: 300px;
+}
+.second_msg{
+	font-family: STSong;
+	margin: 0 auto;
+	width: 252px;
+}
+.second_msg a{
+	font-size: 14px;
+}
+.second_msg span{
+	font-size: 6px;
+}
+.second_banner{
+	position: relative;
+	margin: 0 auto;	
+}
+.second_cat{
+	margin: 0 auto;
+	text-align: center;
+}
+.second_cat img{
+	z-index: 1;
+	width: 900px;
+	height: 200px;
+	margin: 20px auto;
+}
+.second_menu{
+	z-index: 5;
+	position: absolute;
+	left: 246px;
+	top: 46px;
+	font-family: YouYuan;
+	font-size: 16px;
+}
+.sour,.sweet,.sale{
+	margin-top: 20px;
+}
+.sour span,.sweet span,.sale span{
+	border: 1px solid rgb(248,146,152);
+	border-radius: 4px;
+	margin: 20px 30px;
+	padding: 2px 14px;
+}
+.sour a,.sweet a{
+	margin-right: 22px;
+}
+.sale a{
+	margin-right: 30px;
+}
+.sale a i{
+	font-size: 8px;
+}
+.second_line{
+	width: 100%;
+	height: 24px;
+	background-color: black;
+	margin-bottom: 16px;
+}
+.second_classfy{
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+}
+.second_more{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: STSong;
+}
+.second_more a{
+	font-size: 20px;
+}
+.second_more span{
+	font-size: 12px;
+}
+.second_series img{
+	width: 900px;
+	margin-top: 30px;
+	margin-bottom: 120px;
+}
