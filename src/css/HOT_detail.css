@@ -1,0 +1,57 @@
+#pic_main{
+	max-width: 100%;
+	max-height:100%; 
+	margin:0 auto;
+}
+#pic_main img{
+	width: 100%;
+	max-height:337px;
+}
+#main{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+#secret,#honey,#seeking{
+	max-width: 1100px;
+
+}
+#secret img,#honey img,#seeking img{
+	max-width: 1100px;
+	height: 880px;
+}
+#main_last{
+	position: relative;
+	width: 100%;
+	height: 406px;
+	background-image: url(../imgs/HOT_detail/main_last_background.jpg);
+}
+.HOT_price{
+	width: 300px;
+	height: 270px;
+	background-image: url(../imgs/HOT_detail/HOT_last_price.jpg);
+	background-size: cover;
+	position: absolute;
+	top: 58px;
+	left: 384px;
+}
+.HOT_cat{
+	width: 320px;
+	height: 179px;
+	background-image: url(../imgs/HOT_detail/HOT_cat.png);
+	background-size: cover;
+	position: absolute;
+	top: 170px;
+	right: 122px;
+	z-index: 5;
+	cursor: pointer;
+	transition: all 1s;
+}
+.HOT_cat_cake{
+	width: 320px;
+	height: 179px;
+	background-image: url(../imgs/HOT_detail/HOT_cat_hovercake.jpg);
+	background-size: cover;
+	position: absolute;
+	top: 170px;
+	right: 122px;
+}
