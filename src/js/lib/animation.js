@@ -1,4 +1,5 @@
-define(['util'],function(getComputedStyleValue){
+define(['util'],function(util){
+	let getComputedStyleValue = util.getComputedStyleValue;
 	return function animation(obj,jSon,fn){
 			if(obj.timer){
 					clearInterval(obj.timer);

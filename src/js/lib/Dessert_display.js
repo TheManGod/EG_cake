@@ -18,7 +18,7 @@ define([],function(){
 			infor.style = 'color:rgb(100,100,100);position:absolute;top:165px;right:10px';
 			name.style = 'width:180px;height:35px;line-height:35px;text-align:center;background-color:rgba(230,230,230,0.5);';
 			price.style = 'width:180px;height:35px;line-height:35px;text-align:center;';
-			this.commodify.style = 'width:200px;height:250px;border:1px solid rgb(176,145,106);position:absolute;';
+			this.commodify.style = 'width:200px;height:250px;border:1px solid rgb(176,145,106);position:absolute;z-index:5;background-color:white;';
 			this.img.style = 'width:180px;height:190px;background-image:url('+this.img_url+');margin:10px;';
 			name.innerText = this.name;
 			price.innerText = this.price;

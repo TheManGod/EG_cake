@@ -1,4 +1,5 @@
-define(['animation','util'],function(animation,getComputedStyleValue){
+define(['animation','util'],function(animation,util){
+	let getComputedStyleValue = util.getComputedStyleValue;
 	function Slider(imgs,content){
 		this.imgs = imgs;
 		this.content = content;
