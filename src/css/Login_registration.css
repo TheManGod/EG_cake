@@ -1,0 +1,180 @@
+.main{
+	width: px;
+	height: 600px;
+	margin:0px auto;
+	position: relative;
+	background: url(../imgs/a.jpg);
+}
+.border_left{
+	position: absolute;
+	top:78px;
+	left:46px;
+	width: 587px;
+	height: 2px;
+	border-bottom:2px dashed #000;
+	
+	
+}
+.border_right{
+	position: absolute;
+	top:78px;
+	right:46px;
+	width: 587px;
+	height: 2px;
+	border-bottom:2px dashed #000;
+	
+	
+}
+#login_header{
+	position: absolute;
+	top:71px;
+	left:639px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #736b65;
+}
+.main_content{
+	width: 325px;
+	height: 150px;
+	position: absolute;
+	top:160px;
+	left:529px;
+}
+.main_content .ul_left{
+	list-style: none;
+	position: absolute;
+	left:-11px;
+	top:40px;
+	width: 70px;
+	height: 145px;
+}
+.li_left{
+
+	width: 70px;
+	height: 40px;
+	margin: 0 0 10px 0;
+	background: #ededed;
+	text-align: center;
+	line-height: 40px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #d0d0cf;
+	
+	
+	
+}
+.ul_right{
+	list-style: none;
+	position: absolute;
+	left:95px;
+	top:39px;
+	
+	width: 250px;
+	height: 145px;
+}
+input{
+	
+	width: 250px;
+	height: 34px;
+	margin: 0 0 10px 0;
+	background: #ededed;
+	
+}
+
+#username{
+	position: absolute;
+	
+	left:-26px;
+	
+}
+#password{
+	position: absolute;
+	top:50px;
+	left:-26px;
+}
+#yanzhengma{
+	position: absolute;
+	top:100px;
+	left:-26px;
+}
+input::-webkit-input-placeholder {
+	color:#bbb7b5 ;
+	
+}
+input:-ms-input-placeholder { // IE10+
+	color:#bbb7b5 ;
+}
+input:-moz-placeholder { // Firefox4-18
+	color:#bbb7b5 ;
+}
+input::-moz-placeholder { // Firefox19+
+	color:#bbb7b5 ;
+}
+label input a{
+	background: #b4b4b4;
+}
+#forgetyanzhengma{
+	position: relative;
+	top:61px;
+	left:164px;
+	/*background: #919191;
+	color: #f6f6f6;*/
+	font-size: 13px;
+	
+}
+
+#getyanzhengma{
+	position: absolute;
+	top:113px;
+	left:160px;
+	width: 50px;
+	height: 20px;
+	background: #919191;
+	color: #faf9f7;
+	text-align: center;
+	line-height: 20px;
+	font-size: 13px;
+	
+}
+.login{
+	position: absolute;
+	top:360px;
+	left:519px;
+	width: 200px;
+	height: 24px;
+	background: #b0916a;
+	text-align: center;
+	line-height: 24px;
+}
+.login:hover{
+	background: #907757;
+}
+.freeregister{
+	position: absolute;
+	left:742px;
+	top:360px;
+	width: 110px;
+	height: 40px;
+	background: #fff;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+}
+.info{
+	position: relative;
+	top:-16px;
+	width: 1350px;
+	height: 230px;
+	background: #e2dccc;
+	font-size: 12px;
+}
+
+#p1,#p2,#p3,#p4,#p5,#p6,#p7{
+	position: absolute;
+	right:20px;
+	
+}
+.kongbai{
+	width: 1350px;
+	height: 190px;
+}
