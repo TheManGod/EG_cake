@@ -2,7 +2,7 @@
 require.config({
 	baseUrl:'js/lib/'
 });
-require(['slider','Dessert_display','animation'],function(Slider,Dessert_display,animation){
+require(['slider','Dessert_display','animation','util'],function(Slider,Dessert_display,animation,util){
 	let imgs = ['imgs/list1.jpg','imgs/list2.jpg'];
 	let	box = document.getElementById('slider');
 	let Doughnut = document.getElementById('Doughnut');
@@ -22,7 +22,7 @@ require(['slider','Dessert_display','animation'],function(Slider,Dessert_display
 	for(let i=0;i<2;i++){
 		let btn=document.createElement('span');
 		if(i==0){
-			btn.style='position:absolute;width:50px;height:50px;border-radius:50%;background-color:gray;opacity:0.5;left:2%;color:white;text-align:center;font-size:20px;line-height:50px;top:60%;cursor:pointer';
+			btn.style='position:absolute;width:50px;height:50px;border-radius:50%;background-color:gray;opacity:0.5;left:0%;color:white;text-align:center;font-size:20px;line-height:50px;top:60%;cursor:pointer';
 			btn.innerHTML='&lt';
 			btn.onclick=function(){
 				if(slider_content.style.left==='-380px'){
@@ -34,7 +34,7 @@ require(['slider','Dessert_display','animation'],function(Slider,Dessert_display
 			};
 			btn.className='btn';
 		}else{
-			btn.style='position:absolute;width:50px;height:50px;border-radius:50%;background-color:gray;opacity:0.5;right:2%;color:white;text-align:center;font-size:20px;line-height:50px;top:60%;cursor:pointer';
+			btn.style='position:absolute;width:50px;height:50px;border-radius:50%;background-color:gray;opacity:0.5;right:0%;color:white;text-align:center;font-size:20px;line-height:50px;top:60%;cursor:pointer';
 			btn.innerHTML='&gt';
 			btn.onclick=function(){
 				if(!slider_content.style.left || slider_content.style.left ==='0px'){
@@ -50,4 +50,24 @@ require(['slider','Dessert_display','animation'],function(Slider,Dessert_display
 		btn_Component.appendChild(btn);
 	}
 	snack.appendChild(btn_Component);
+	let the_cat = document.getElementsByClassName('the_cat');
+	document.addEventListener('mousewheel',function(){
+		let event = util.getEvent();
+		if(document.body.scrollTop>487 && document.body.scrollTop<1187){
+			the_cat[0].style.display = 'block';
+			animation(the_cat[0],{'top':495});
+		}else{
+			the_cat[0].style.display = 'block';
+			animation(the_cat[0],{'top':330});
+		}
+		if(document.body.scrollTop>1187 && document.body.scrollTop<1887){
+			the_cat[1].style.display = 'block';
+			animation(the_cat[1],{'top':495});
+		}else{
+			the_cat[1].style.display = 'block';
+			animation(the_cat[1],{'top':330});
+		}
+
+
+	});
 });
