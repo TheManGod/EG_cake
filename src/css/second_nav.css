@@ -86,3 +86,16 @@
 	margin-top: 30px;
 	margin-bottom: 120px;
 }
+.second_minute{
+	position: absolute;
+	top: 130px;
+	left: 140px;
+	font-family: STSong;
+}
+.second_minute ul{
+	float: left;
+	margin-right: 120px;
+}
+.second_minute ul li{
+	margin: 36px 0;
+}
