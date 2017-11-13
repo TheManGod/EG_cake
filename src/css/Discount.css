@@ -1,0 +1,113 @@
+#pic{
+	max-width: 100%;
+}
+#pic img{
+	width: 100%;
+}
+#main{
+	max-width: 1100px;
+	margin: 0 auto;
+	position: relative;
+}
+#main	p{
+	font-size: 25px;
+	color: red;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 77px;
+}
+#nangua {
+	position: absolute;
+	top:25px;
+	right: 387px;
+}
+p.p1{
+	color: rgb(223,148,89) !important;
+	font-size: 20px !important;
+	position: relative;
+	line-height: 50px;
+}
+.p1 img:last-child{
+	position: absolute;
+	left: 280px;
+	top: 37px;
+}
+.xiangqing p{
+	font-size: 23px !important;
+	position: relative;
+	top: 30px;
+	color: red;
+	text-align: center !important;
+}
+.part_2{
+	height: 1830px;
+	width: 100%;
+	background-image: url(../imgs/Discount/part_background.jpg);
+	position: relative;
+}
+.part_2_word{
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	color: red;
+}
+.danshengou{
+	position: absolute;
+	top: 300px;
+	left: 400px;
+}
+.list_1{
+	position: absolute;
+	top: 200px;
+	right: 150px;
+}
+.list_2{
+	position: absolute;
+	top: 570px;
+	left: 180px;
+}
+.youhui{
+	position: absolute;
+	top: 200px;
+	left: 85px;
+}
+.list_3{
+	position: absolute;
+	top: 990px;
+	left: 180px;
+}
+.list_4{
+	position: absolute;
+	top: 940px;
+	right: 70px;
+}
+.list_5{
+	position: absolute;
+	top: 1340px;
+	left: 180px;
+}
+.list_6{
+	position: absolute;
+	top: 1340px;
+	right: 180px;
+}
+.shengri{
+	position: absolute;
+	top: 1130px;
+	left: 85px;
+}
+#taocan{
+	width: 100%;
+	min-height: 400px;
+	position: relative;
+}
+.taocan{
+	position: absolute;
+	top: 0px;
+	left: 85px;
+}
+.taocan_pic{
+	position: absolute;
+	top: 0px;
+	left: 165px;
+}

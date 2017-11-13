@@ -41,7 +41,7 @@
 	background-size: cover;
 	position: absolute;
 	top: 170px;
-	right: 122px;
+	right: 300px;
 	z-index: 5;
 	cursor: pointer;
 	transition: all 1s;
@@ -53,5 +53,5 @@
 	background-size: cover;
 	position: absolute;
 	top: 170px;
-	right: 122px;
+	right: 300px;
 }
