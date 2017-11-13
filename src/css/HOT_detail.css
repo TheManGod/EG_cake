@@ -13,11 +13,11 @@
 }
 #secret,#honey,#seeking{
 	max-width: 1100px;
-
+	text-align: center;
 }
 #secret img,#honey img,#seeking img{
 	max-width: 1100px;
-	height: 880px;
+	height: 620px;
 }
 #main_last{
 	position: relative;
