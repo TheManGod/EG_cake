@@ -110,7 +110,7 @@
 	height: 77px;
 }
 .scale{
-	transition: all 0.5s;
+	transition: all 2s;
 }
 .scale:hover{
 	transform: scale(1.5);
