@@ -1,0 +1,235 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clear_fix:after{
+	clear: both;
+	zoom: 1;
+	display: block;
+	content: "";
+	overflow: hidden;
+}
+#detail_main{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.details_cake{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+/*左侧图片部分*/
+.details_flower{
+	width: 500px;
+	float: left;
+	margin-right: 60px;
+}
+.cake_flower1 img{
+	margin: 4px auto;
+}
+.cake_flower2{
+	margin-top: 20px;
+}
+.cake_flower2 img{
+	width: 150px;
+	margin-right: 26px;
+}
+/*右侧部分*/
+.details_words{
+	font-family: "微软雅黑";
+	font-size: 48px;
+	float: left;
+	margin: 20px;
+}
+.details_words a{
+	color: rgb(91,91,91);
+	margin: 10px 0;
+}
+.details_words p{
+	color: rgb(176,145,106);
+	margin: 10px 0;
+}
+.details_line{
+	width: 100%;
+	height: 2px;
+	background-color: rgb(176,145,106);
+}
+.details_weight{
+	margin: 30px 0;
+}
+.details_draw{
+	margin: 40px 0;
+	font-size: 16px;
+}
+.details_draw img{
+	margin-left: 60px;
+	margin-right: 50px;
+	float: left;
+}
+.details_draw ul{
+	float: left;
+}
+.details_draw ul li{
+	margin: 4px 0;
+}
+.details_items{
+	font-size: 16px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.details_items a{
+	border-bottom: 1px solid black;
+	padding: 6px 0;
+}
+.details_items a span{
+	color: red;
+}
+.details_buy span,.details_buy a{
+	font-size: 24px;
+	color: white;
+	background-color: rgb(176,145,106);
+	padding: 10px 30px;
+}
+.details_buy span:hover{
+	background-color: rgb(128,106,79);
+	cursor: pointer;
+}
+.details_buy a{
+	background-color: rgb(54,54,54);
+}
+.details_buy a span{
+	background-color: rgb(54,54,54);
+	padding: 0;
+}
+.details_buy a span img{
+	position: relative;
+	left: 10px;
+	top: 2px;
+}
+/*草莓，玫瑰，甜酒的logo部分*/
+.details_logo{
+	margin: 30px auto;
+}
+.details_wine{
+	float: left;
+	margin-right: 80px;
+	border-top: 2px solid rgb(176,145,106);
+	border-bottom: 2px solid rgb(176,145,106);
+}
+.details_wine ul{
+	float: left;
+	margin-right: 50px;
+	padding: 30px;
+}
+.details_wine ul:nth-child(3){
+	margin-right: 0;
+}
+.details_wine ul li{
+	text-align: center;
+	color: rgb(68,40,24);
+}
+.details_wine ul li img{
+	width: 70px;
+}
+.details_sweet{
+	float: left;
+	border-top: 2px solid rgb(176,145,106);
+	border-bottom: 2px solid rgb(176,145,106);
+}
+.details_treat{
+	width: 490px;
+	padding: 30px 4px;
+}
+.details_treat span{
+	margin-right: 10px;
+	font-size: 20px;
+}
+.details_treat img{
+	width: 20px;
+	position: relative;
+	top: 4px;
+	margin-right: 8px;
+}
+.details_treat img:nth-child(6){
+	width: 24px;
+	top: 6px;
+}
+.details_temp{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.details_temp span{
+	margin-right: 10px;
+	padding-left: 4px;
+}
+/*后面的大图片*/
+.details_play{
+	font-size: 12px;
+	color: rgb(68,40,24);
+	margin: 20px auto;
+}
+.details_play p{
+	margin-bottom: 6px;
+}
+/*配送部分*/
+.bread_cake,.details_text1,.details_text2,.details_text3{
+	float: left;
+}
+.details_text1,.details_text2,.details_text3{
+	width: 230px;
+	margin-left: 40px;
+	font-size: 16px;
+	color: rgb(119,119,121);
+	line-height: 24px;
+}
+.details_text1{
+	margin-top: 20px;
+}
+.details_rad,.details_peisong{
+	font-size: 17px;
+	color: rgb(200,160,98);
+	margin-bottom: 20px;
+}
+.details_rad span,.details_peisong span{
+	width: 10px;
+	height: 10px;
+	display: block;
+	float: left;
+	background-color: rgb(200,160,98);
+	border-radius: 50%;
+	position: relative;
+	top: 8px;
+	margin-right: 10px;
+}
+.details_text2,.details_text3{
+	margin-top: 64px;
+}
+/*配送部分2*/
+.clent_exp,.details_p1,.details_p2,.details_p3{
+	float: left;
+}
+.details_p1,.details_p2,.details_p3{
+	width: 230px;
+	font-size: 16px;
+	color: rgb(119,119,121);
+	line-height: 24px;
+	margin-right: 40px;
+}
+.details_p1{
+	margin-top: 20px;
+}
+.details_p2,.details_p3{
+	margin-top: 64px;
+}
+/*结尾处的蛋糕*/
+.details_more{
+	font-size: 22px;
+	margin: 20px 0;
+}
+.more_cake img{
+	width: 300px;
+	margin-right: 94px;
+	margin-bottom: 100px;
+}
+.more_cake img:nth-child(3){
+	margin-right: 0;
+}
