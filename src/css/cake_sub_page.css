@@ -83,10 +83,12 @@ h1,h2,h3,h4,h5,h6,p{
 	height: 50px;
 }
 .today{
+	height: 280px;
 	width: 1100px;
-	margin: 5px auto;
+	margin: 10px auto;
 	border-top: 3px solid rgb(239,147,173);
 	position: relative;
+	box-shadow: 0 1px 8px rgb(100,100,100);
 }
 .today_title{
 	width: 130px;
@@ -101,4 +103,83 @@ h1,h2,h3,h4,h5,h6,p{
 	font-weight: normal;
 	background-color: rgb(240,176,194);
 	margin: 3px 0;
+}
+.list_1{
+	top: 30px;
+	left: 50px;
+}
+.list_2{
+	top: 30px;
+	right:50px;
+}
+.list_3{
+	top: 30px;
+	left: 50px;
+}
+.list_4{
+	top: 30px;
+	right:50px;
+}
+.grass_list{
+	height: 550px !important;
+}
+.list_5{
+	top: 290px;
+	left: 50px;
+}
+.list_6{
+	top: 290px;
+	right: 50px;
+}
+.xinpin_title{
+	width: 1100px;
+	height: 68px;
+	margin: 0 auto;
+}
+.xinpin_title img,.xinpin_list img{
+	width: 100%;
+	height: 100%;
+}
+.xinpin_list{
+	width: 310px;
+	height: 190px;
+	margin: 20px;
+	float: left;
+}
+.xinpin_content{
+	width: 1100px;
+	margin: 0 auto;
+}
+.sweet_title{
+	width: 1100px;
+	height: 110px;
+	margin: 0 auto;
+}
+.title{
+	width: 1100px;
+	margin: 5px auto;
+	position: relative;
+}
+.title div{
+	height: 40px;
+	width: 820px;
+	margin: 0 auto;
+	box-shadow: 0 2px 3px black;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	background: -webkit-linear-gradient(top,white,rgb(254,140,153)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(top,white,rgb(254,140,153)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(top,white,rgb(254,140,153)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top,white,rgb(254,140,153)); /* 标准的语法 */
+}
+.title span{
+	position: absolute;
+	height: 40px;
+	width: 20px;
+	box-shadow: 0 2px 3px black;
+	background: -webkit-linear-gradient(top,white,rgb(254,140,153)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(top,white,rgb(254,140,153)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(top,white,rgb(254,140,153)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top,white,rgb(254,140,153)); /* 标准的语法 */
 }

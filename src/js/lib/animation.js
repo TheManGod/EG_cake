@@ -49,6 +49,6 @@ define(['util'],function(util){
 					fn();
 				}
 			}
-			},60);
+			},25);
 		}
 	});
