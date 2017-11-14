@@ -6,12 +6,12 @@ require([],function(){
 	let cat = document.getElementsByClassName('HOT_cat')[0];
 	cat.onclick = function(){
 		if(toggle==0){
-		cat.style.opacity = 0;
+		cat.style.transform = ' rotateX(125deg)';
 		toggle = 1;
 		return;
 	}
 		if(toggle==1){
-		cat.style.opacity = '1';
+		cat.style.transform = ' rotateX(0deg)';
 		toggle = 0;
 		return;
 		}

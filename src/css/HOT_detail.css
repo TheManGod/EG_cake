@@ -1,3 +1,20 @@
+@keyframes shake{
+	0%{
+		transform:rotate(0deg);
+	}
+	25%{
+		transform:rotate(30deg);
+	}
+	50%{
+		transform:rotate(0deg);
+	}
+	75%{
+		transform:rotate(-30deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
 #pic_main{
 	max-width: 100%;
 	max-height:100%; 
@@ -28,11 +45,14 @@
 .HOT_price{
 	width: 300px;
 	height: 270px;
-	background-image: url(../imgs/HOT_detail/HOT_last_price.jpg);
+	background-image: url(../imgs/HOT_detail/HOT_last_price.png);
 	background-size: cover;
 	position: absolute;
 	top: 58px;
 	left: 384px;
+	transform-origin: center top;
+	animation: shake 4s ease infinite;
+
 }
 .HOT_cat{
 	width: 320px;
@@ -45,6 +65,8 @@
 	z-index: 5;
 	cursor: pointer;
 	transition: all 1s;
+	transform: rotateY(0deg);
+	transform-origin: left top;
 }
 .HOT_cat_cake{
 	width: 320px;
