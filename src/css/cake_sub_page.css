@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 #background{
 	width: 100%;
-	height: 2827px;
+	height: 3000px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -182,4 +182,28 @@ h1,h2,h3,h4,h5,h6,p{
     background: -o-linear-gradient(top,white,rgb(254,140,153)); /* Opera 11.1 - 12.0 */
     background: -moz-linear-gradient(top,white,rgb(254,140,153)); /* Firefox 3.6 - 15 */
     background: linear-gradient(top,white,rgb(254,140,153)); /* 标准的语法 */
+}
+.title span:first-child{
+	top: 0;
+	left: 110px;
+}
+.title span:last-child{
+	top: 0;
+	right: 110px;
+}
+.musi-content,.rulao-content,.fantang-content{
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+}
+.last{
+	height: 90px;
+	width: 100px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 56px;
+	color: rgb(149,93,16);
+	font-size: 25px;
+	cursor: pointer;
+	margin-bottom: 20px;
 }

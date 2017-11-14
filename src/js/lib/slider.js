@@ -19,13 +19,13 @@ define(['animation','util'],function(animation,util){
 		constructor:Slider,
 		init:function(){
 			this.sliderComponent = document.createElement('div');
-			this.sliderComponent.style = 'width:100%;height:100%;position:relative;overflow:hidden';
-			this.img_box.style = 'width:'+this.content_width*(this.imgs.length+1)+'px;height:100%;position:absolute;top:0;left:0';
+			this.sliderComponent.style.cssText = 'width:100%;height:100%;position:relative;overflow:hidden';
+			this.img_box.style.cssText = 'width:'+this.content_width*(this.imgs.length+1)+'px;height:100%;position:absolute;top:0;left:0';
 			for(let i=0,len=this.imgs.length+1;i<len;i++){
 				let imgBox=document.createElement('div');
 				let img = document.createElement('img');
-			img.style = 'width:'+this.content_width+'px;height:100%;';
-			imgBox.style = 'width:'+this.content_width+'px;height:100%;float:left';
+			img.style.cssText = 'width:'+this.content_width+'px;height:100%;';
+			imgBox.style.cssText = 'width:'+this.content_width+'px;height:100%;float:left';
 			if(i===this.imgs.length){
 				img.src = this.imgs[0];
 			}else{
@@ -39,7 +39,7 @@ define(['animation','util'],function(animation,util){
 			for(let i = 0,len = this.imgs.length;i<len;i++){
 				let li = document.createElement('li');
 				let _this = this;
-				li.style = 'width:10px;height:10px;border:1px solid black;border-radius:50%;float:left;margin:20px;';
+				li.style.cssText = 'width:10px;height:10px;border:1px solid black;border-radius:50%;float:left;margin:20px;';
 				li.onclick = function(){
 					_this.index = i;
 					if(_this.timer){
@@ -56,19 +56,19 @@ define(['animation','util'],function(animation,util){
 				var btn=document.createElement('span');
 				this.btn_array.push(btn);
 				if(i==0){
-					btn.style='position:absolute;width:50px;height:50px;border-radius:50%;background-color:gray;opacity:0.5;left:0;color:white;text-align:center;font-size:20px;line-height:50px;top:40%;cursor:pointer;display:none;';
+					btn.style.cssText = 'position:absolute;width:50px;height:50px;border-radius:50%;background-color:gray;opacity:0.5;left:0;color:white;text-align:center;font-size:20px;line-height:50px;top:40%;cursor:pointer;display:none;';
 					btn.innerHTML='&lt';
 					btn.onclick=this.prePic.bind(this);
 					btn.className='btn';
 				}else{
-					btn.style='position:absolute;width:50px;height:50px;border-radius:50%;background-color:gray;opacity:0.5;left:'+(this.content_width-50)+'px;color:white;text-align:center;font-size:20px;line-height:50px;top:40%;cursor:pointer;display:none;';
+					btn.style.cssText = 'position:absolute;width:50px;height:50px;border-radius:50%;background-color:gray;opacity:0.5;left:'+(this.content_width-50)+'px;color:white;text-align:center;font-size:20px;line-height:50px;top:40%;cursor:pointer;display:none;';
 					btn.innerHTML='&gt';
 					btn.onclick=this.nextPic.bind(this);
 					btn.className='btn';
 				}
 				this.btn_box.appendChild(btn);
 			}
-			this.ul.style = 'position:absolute;bottom:5%;left:50%';
+			this.ul.style.cssText = 'position:absolute;bottom:5%;left:50%';
 			this.ul.firstChild.className = 'current_pic';
 			this.sliderComponent.appendChild(this.img_box);
 			this.sliderComponent.appendChild(this.ul);
