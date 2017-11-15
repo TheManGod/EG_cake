@@ -1,3 +1,10 @@
+.clear_fix:after{
+	clear: both;
+	zoom: 1;
+	display: block;
+	content: "";
+	overflow: hidden;
+}
 .second_summer{
 	margin: 30px auto;
 }
@@ -59,6 +66,46 @@
 .sale a i{
 	font-size: 8px;
 }
+/*内容开始*/
+.second_main{
+	max-width: 1100px;
+	margin: 20px auto;
+	text-align: center;
+	font-family: simsun;
+}
+.second_intr{
+	float: left;	
+	margin: 0 104px;
+}
+.second_intr p{
+	font-size: 20px;
+}
+.second_intr p span{
+	color: red;
+}
+.second_box{
+	padding: 4px;
+	border: 1px solid rgb(255,151,58);
+}
+.second_bike{
+	background-color: rgb(255,151,58);
+	color: white;
+	padding: 2px;
+}
+.second_bike span{
+	position: relative;
+	top: -2px;
+}
+.second_bike span i{
+	margin: 0 4px;
+}
+.second_bike img{
+	width: 20px;
+	position: relative;
+	top: 2px;
+}
+
+/**/
 .second_line{
 	width: 100%;
 	height: 24px;
@@ -88,7 +135,7 @@
 }
 .second_minute{
 	position: absolute;
-	top: 130px;
+	top: 132px;
 	left: 140px;
 	font-family: STSong;
 }

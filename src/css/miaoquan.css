@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clear_fix:after{
+	clear: both;
+	zoom: 1;
+	display: block;
+	content: "";
+	overflow: hidden;
+}
+/*轮播组件部分*/
+#slider{
+	width: 100%;
+	height: 378px;
+}
+.current_pic{
+	background-color: white;
+}
+/*协会部分*/
+.miao_xiehui{
+	font-size: 26px;
+	width: 100%;
+	background-color: rgb(255,196,217);
+	margin: 0;
+	box-shadow: 0px 4px 12px 4px rgb(95,80,85);
+	margin-bottom: 12px;
+}
+.miao_need{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.miao_need p{
+	margin-left: 20px;
+}
+.miao_need span{
+	font-size: 14px;
+}
+.miao_main{
+	background-color: rgb(255,215,229);
+	font-family: jkaton;
+}
+.main_text{
+	max-width: 880px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.main_text h1{
+	padding: 30px 0;
+}
+.miao_text1,.miao_text2,.miao_text3{
+	position: relative;
+}
+.miao_text1 img,.miao_text2 img,.miao_text3 img{
+	width: 840px;
+}
+.miao_text1 p,.miao_text2 p,.miao_text3 p{
+	text-align: center;
+	position: absolute;
+	max-width: 420px;
+	font-size: 20px;
+	line-height: 32px;
+}
+.miao_text1 p{
+	top: 150px;
+	left: 340px;
+}
+.miao_text2 p{
+	left: 80px;
+	top: 40px;
+}
+.miao_text3 p{
+	left: 340px;
+	top: 120px;
+}
+/*抱只喵部分*/
+.miao_have{
+	background-color: #000000;
+}
+.miao_have p{
+	padding: 10px;
+	text-align: center;
+	font-size: 36px;
+	color: white;
+}
+.miao_line{
+	height: 8px;
+	background-color: black;
+	border-top: 1px solid grey;
+}
+/*甜甜圈部分*/
+.miao_sweet{
+	font-size: 26px;
+	width: 100%;
+	margin: 0;
+	margin-bottom: 12px;
+}
+.miao_series{
+	margin: 40px auto;
+	max-width: 1100px;
+	text-align: center;
+}
+.miao_sline{
+	height: 4px;
+	margin: 10px 46px;
+	background-color: rgb(251,172,204);
+}
+.miao_wang{
+	width: 800px;
+	margin: auto;
+}
+.miao_wang p{
+	background-color: rgb(212,244,255);
+	padding: 10px 0;
+	font-size: 36px;
+	font-family: simsun;
+}
+.miao_wang p span{
+	font-size: 20px;
+}
+/*领养部分*/
+.miao_live img,.miao_pic img{
+	width: 100%;
+	box-shadow: 0px 4px 12px rgb(212,244,255);
+	margin: 10px 0;
+}
+.miao_pic img{
+	margin-bottom: 0;
+}
+.miao_adopt{
+	max-width: 1100px;
+	margin: auto;
+}
+.miao_adopt1,.miao_adopt2,.miao_adopt3{
+	float: left;
+	margin-left: 60px;
+}
+.miao_click{
+	background-color: rgb(255,0,0);
+	color: white;
+	text-align: center;
+	margin: 10px auto;
+	width: 90%;
+}
+.miao_click:hover{
+	box-shadow: 0px 4px 12px 4px rgb(95,80,85);
+	cursor: pointer;
+}
+.miao_click img{
+	position: relative;
+	top: 4px;
+	width: 68px;
+}
+.miao_click span{
+	font-size: 32px;
+	position: relative;
+	top: -14px;
+}
+.miao_tips{
+	text-align: center;
+}
+.miao_tips p{
+	color: red;
+	margin: 10px auto;
+	font-size: 14px;
+}
+/*物语部分*/
+.miao_bottom{
+	background-color: rgb(229,229,229);
+}
+.miao_wuyu{
+	background: url(../imgs/miaoquan/背景.jpg);
+	margin: 0 auto;
+	max-width: 1100px;
+	text-align: center;
+}
+.miao_wuyu img{
+	width: 1000px;
+	margin: 10px auto;
+}
+.miao_land img,.miao_zheer img{
+	width: 600px;
+	padding: 14px;
+	border: 2px solid #000;
+}
+.miao_land{
+	margin-left: -310px;
+}
+.miao_land p,.miao_su p{
+	font-family: simsun;
+	font-size: 32px;
+	padding: 0;
+	background-color: rgba(170,182,181,0.5);
+	border: 16px solid rgba(119,117,114,0.5);
+	position: relative;
+	width: 218px;
+}
+.miao_land p{
+	left: 389px;
+	top: -14px;
+}
+.miao_zheer img{
+	float: right;
+	margin-right: 60px;
+}
+.miao_su p{
+	left: 174px;
+	top: 200px;
+}
+.miao_zheer .miao_more img{
+	width: 262px;
+	float: left;
+	border: none;
+	position: relative;
+	top: 600px;
+	left: 20px;
+}
+/*双十一部分*/
+.miao_double{
+	max-width: 1100px;
+	text-align: center;
+	margin: auto;
+}
+.miao_line{
+	width: 12px;
+	height: 100px;
+	background-color: rgb(255,221,235);
+	float: left;
+}
+.miao_double p{
+	background-color: rgb(255,221,235);
+	float: left;
+	font-size: 30px;
+	font-family: simsun;
+	margin: 10px 40px;
+	padding: 20px;
+}
+.miao_active{
+	max-width: 1100px;
+	margin: auto;
+	font-family: simsun;
+}
+.miao_active h2{
+	color: red;
+	margin: 20px 0;
+}
+.miao_active p{
+	font-size: 20px;
+	line-height: 36px;
+}
+.miao_active span{
+	color: red;
+	text-decoration: underline;
+}
+.miao_foot{
+	max-width: 1100px;
+	margin: 100px auto;
+	position: relative;
+	text-align: center;
+}
+.miao_foot img:nth-child(2){
+	position: relative;
+	top: 44px;
+}
+.miao_miao{
+	position: absolute;
+	right: 92px;
+	top: -58px;
+	z-index: 1;
+}
+
